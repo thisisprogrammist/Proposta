@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proposta</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div id="step1">
+      <h1>❤️ Vuoi iniziare una relazione con me? ❤️</h1>
+      <p class="subtitle">Ti amo</p>
+      <div class="buttons">
+        <button id="yesBtn">Si</button>
+        <button id="noBtn">No</button>
+        <button id="maybeBtn">Forse</button>
+      </div>
+    </div>
+
+    <div id="step2" class="hidden">
+      <h2>🎥 Vorrei guardare il film? Scegli! 🎥</h2>
+      <div class="movie-grid">
+        <div class="movie-card" data-movie="Notebook">
+          <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn1.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcTtfuO7NsIV0sCFyqnVPQ8zMdyz4uUenuPlYuTn0Wk7aj0oGgCV&psig=AOvVaw0z9ZYwKwOd89aMLapqC8CX&ust=1736411477542000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNiI6v3a5YoDFQAAAAAdAAAAABAE" alt="Notebook">
+          <p>Notebook</p>
+        </div>
+        <div class="movie-card" data-movie="Titanic">
+          <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRwQlOeIost26Qv6cAAT73c9LLi0oRcXOJ6QQ5h3J1fUogSX_sD&psig=AOvVaw38ygs1p5fqi-WhmP1d2VWj&ust=1736411496205000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPiLgofb5YoDFQAAAAAdAAAAABAE" alt="Titanic">
+          <p>Titanic</p>
+        </div>
+        <div class="movie-card" data-movie="10 things i hate about you">
+          <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn1.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcTnqgecWwjEgNpZJVbM_9T89dFuNZQa3sD3d7rCoza-7cTFjfdp&psig=AOvVaw0bH_UIyOSm4N0c6QIDPaob&ust=1736411441926000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOijmfTa5YoDFQAAAAAdAAAAABAE" alt="10 things i hate about you">
+          <p>10 things i hate about you</p>
+        </div>
+        <div class="movie-card" data-movie="Klaus">
+          <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn1.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRTd91frmGLbVm_kH_IZpca204mS5DKm08QnaXGsN6He3bsMCr_&psig=AOvVaw2b1yJ6eV9bMgqCvsXzpE8r&ust=1736410065167000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLjHtNzV5YoDFQAAAAAdAAAAABAE" alt="Klaus">
+          <p>Klaus</p>
+        </div>
+        <div class="movie-card" data-movie="Puss in boots">
+          <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn2.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQ9jcBYa4C6spioc3vm0FushxAeJZWpRdehBmsZlFRVR-EIHx8O&psig=AOvVaw2r7sNvEC8FIZ6LBxaGFlCm&ust=1736411721221000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNjbk_Lb5YoDFQAAAAAdAAAAABAE" alt="Puss in boots">
+          <p>Puss in boots</p>
+        </div>
+        <div class="movie-card" data-movie="Wonka">
+          <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn2.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcTe-ymrd9epPuNdShDipemXyhWJo2HuIY8U6mr48i1PGnkWDm6m&psig=AOvVaw2ntzhhUtovBJgIITM0GOb2&ust=1736411859015000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOCqiLfc5YoDFQAAAAAdAAAAABAE" alt="Wonka">
+          <p>Wonka</p>
+        </div>
+        <div class="movie-card" data-movie="The Fault in Our Stars">
+          <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn1.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQqBd2szq3KOr111oyUohxJWKfeKY0YpnFQHRX2OFkKn9bpNcV_&psig=AOvVaw0dRqJEgx7qUHmyAWs4RDHC&ust=1736412052841000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPCVmJDd5YoDFQAAAAAdAAAAABAE" alt="The Fault in Our Stars">
+          <p>The Fault in Our Stars</p>
+        </div>
+        <div class="movie-card" data-movie="Five Feet Apart">
+          <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn3.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcTCBlvNlaVHzlwA6xGL7DwsRfDW7JSZtiAgQFBpLoItxF5qeIjE&psig=AOvVaw3nCGL111ruk9pgCYdb8a8y&ust=1736412324462000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJD68pHe5YoDFQAAAAAdAAAAABAE" alt="Five Feet Apart">
+          <p>Five Feet Apart</p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div id="step3" class="hidden">
+      <h2>Hai scelto questo film:</h2>
+      <div class="selected-movie">
+        <img id="selectedMovieImg" src="" alt="Selected Movie">
+        <p id="selectedMovieName" class="movie-name"></p>
+      </div>
+      <p>Andiamo di guardare il film! 🍿</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
