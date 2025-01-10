@@ -9,8 +9,9 @@
 <body>
   <div class="container">
     <div id="step1">
-      <h1>❤️ Vuoi iniziare una relazione con me? ❤️</h1>
-      <p class="subtitle">Ti amo</p>
+      <h1>Posso essere il tuo ragazzo?</h1> <!--Vuoi iniziare una relazione con me?-->
+      <p class="subtitle" style="font-family:Dancing Script, cursive; font-size: 20px; font: bold;">❤️You are the best thing ever happen to me! I know i will never meet someone like you again. Even if we are no longer together, i won't love anyone the way i loved you.❤️</p>
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap" rel="stylesheet">      
       <div class="buttons">
         <button id="yesBtn">Si</button>
         <button id="noBtn">No</button>
@@ -21,10 +22,6 @@
     <div id="step2" class="hidden">
       <h2>🎥 Vorrei guardare il film? Scegli! 🎥</h2>
       <div class="movie-grid">
-        <div class="movie-card" data-movie="Notebook">
-          <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn1.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcTtfuO7NsIV0sCFyqnVPQ8zMdyz4uUenuPlYuTn0Wk7aj0oGgCV&psig=AOvVaw0z9ZYwKwOd89aMLapqC8CX&ust=1736411477542000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNiI6v3a5YoDFQAAAAAdAAAAABAE" alt="Notebook">
-          <p>Notebook</p>
-        </div>
         <div class="movie-card" data-movie="Titanic">
           <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRwQlOeIost26Qv6cAAT73c9LLi0oRcXOJ6QQ5h3J1fUogSX_sD&psig=AOvVaw38ygs1p5fqi-WhmP1d2VWj&ust=1736411496205000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPiLgofb5YoDFQAAAAAdAAAAABAE" alt="Titanic">
           <p>Titanic</p>
@@ -53,6 +50,13 @@
           <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn3.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcTCBlvNlaVHzlwA6xGL7DwsRfDW7JSZtiAgQFBpLoItxF5qeIjE&psig=AOvVaw3nCGL111ruk9pgCYdb8a8y&ust=1736412324462000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJD68pHe5YoDFQAAAAAdAAAAABAE" alt="Five Feet Apart">
           <p>Five Feet Apart</p>
         </div>
+        <button id="altroBtn" onclick="redirect()">Altro film?</button>
+        <script>
+          function redirect() {
+            const url = 'https://ww4.fmovies.co/24/';
+            window.location.href = url;
+            }
+          </script>
         </div>
       </div>
     </div>

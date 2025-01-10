@@ -109,3 +109,22 @@ button {
   border-radius: 10px;
   margin-bottom: 10px;
 }
+
+#altroBtn{
+    background-color: #ff85a2; 
+    color: white;
+    border: none;
+    border-radius: 25px; 
+    padding: 15px 30px;
+    margin: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+#altroBtn:hover {
+  background-color: #ff6790; /* Харахад илүү тод өнгө */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05); /* Жижигхэн томрох эффект */
+}
